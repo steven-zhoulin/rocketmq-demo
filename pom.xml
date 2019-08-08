@@ -21,6 +21,10 @@
     <modules>
         <module>simple-producer</module>
         <module>simple-consumer</module>
+        <module>order-producer</module>
+        <module>order-consumer</module>
+        <module>schedule-consumer</module>
+        <module>schedule-producer</module>
     </modules>
 
     <dependencyManagement>

@@ -18,7 +18,7 @@ public class RootConfig {
 	@Bean
 	public DefaultMQPushConsumer defaultMQPushConsumer() throws MQClientException {
 
-		DefaultMQPushConsumer consumer = new DefaultMQPushConsumer("crm-order-consumer");
+		DefaultMQPushConsumer consumer = new DefaultMQPushConsumer("simple-consumer");
 
 		consumer.setNamesrvAddr("10.174.44.181:9876;10.174.44.182:9876");
 		consumer.subscribe("topic-simple", "*");
