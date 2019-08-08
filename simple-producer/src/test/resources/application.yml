@@ -1,0 +1,8 @@
+rocketmq:
+  producer:
+    groupName: ${spring.application.name}
+    namesrvAddr: 10.174.44.181:9876;10.174.44.182:9876
+    default: false
+  consumer:
+    groupName: ${spring.application.name}
+    namesrvAddr: 10.174.44.181:9876;10.174.44.182:9876
